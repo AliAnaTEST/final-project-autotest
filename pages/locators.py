@@ -18,3 +18,7 @@ class ProductPageLocators():
 
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+
+class BasketPageLocators():
+    BASKET_SET = (By.CSS_SELECTOR, "#basket_formset")
+    MESSAGE_EMPTY = (By.CSS_SELECTOR, "#content_inner > p")
