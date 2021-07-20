@@ -14,3 +14,7 @@ class ProductPageLocators():
     PRODUCT_NAME_IN_MESSAGE = (By.CSS_SELECTOR, ".alert:nth-child(1) .alertinner strong")
     PRODUCT_PRICE = (By.CSS_SELECTOR, ".price_color")
     PRODUCT_PRICE_IN_MESSAGE = (By.CSS_SELECTOR, ".alert-info .alertinner strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert:nth-child(1)")
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
