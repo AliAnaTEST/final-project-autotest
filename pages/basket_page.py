@@ -9,5 +9,5 @@ class BasketPage(BasePage):
 
     def should_be_message_if_empty_basket(self):
         message = self.browser.find_element(*BasketPageLocators.MESSAGE_EMPTY).text
-        print(message)
-        assert message == "Your basket is empty. Continue shopping", "Error message when basket is empty"
+        assert message == "Your basket is empty. Continue shopping", \
+        "Error message when basket is empty"

@@ -2,7 +2,8 @@ from selenium.webdriver.common.by import By
 
 
 class MainPageLocators():
-    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    pass
+    #LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
 
 class LoginPageLocators():
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
@@ -18,6 +19,7 @@ class ProductPageLocators():
 
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    BASKET_LINK = (By.CSS_SELECTOR, ".btn-group > .btn:first-child")
 
 class BasketPageLocators():
     BASKET_SET = (By.CSS_SELECTOR, "#basket_formset")
