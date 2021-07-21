@@ -3,8 +3,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 options = Options()
-#options.add_argument('headless')
-#options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
 def pytest_addoption(parser):
     parser.addoption('--language', action='store', default="en")
